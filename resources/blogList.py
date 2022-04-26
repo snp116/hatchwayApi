@@ -4,6 +4,7 @@ from http import HTTPStatus
 
 from __init__ import blogPosts, blog_posts
 
+
 class BlogListResource(Resource):
 
     def get(self):
